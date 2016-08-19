@@ -3,7 +3,7 @@
 	Plugin Name: Praksa Plugins
 	Description: (1) Protected Content - Shortcode that displays the content to logged-in users only
 				 (2) Reverse - Shortcode that displays the content in reverse order
-				 (3) Wearher - Shortcode that dispalys weather information for a given location
+				 (3) Weather - Shortcode that dispalys weather information for a given location
 	Version: 1.0
 	Author: Lazar Zubic, Danica Misic
 	License: GPLv2+
