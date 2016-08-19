@@ -1,6 +1,6 @@
 <?php
 /*
-	Plugin Name: Praksa Plugins
+	Plugin Name: Praksa Plugin
 	Description: (1) Protected Content - Shortcode that displays the content to logged-in users only
 				 (2) Reverse - Shortcode that displays the content in reverse order
 				 (3) Weather - Shortcode that dispalys weather information for a given location
@@ -34,7 +34,7 @@ function shortcode_protected_content_handler($atts, $content = null)
 {
 	$output = 'Please login to see this';
 	if (is_user_logged_in())
-		$output = $content;
+		$output = do_shortcode($content);
 	return $output;
 }
 
